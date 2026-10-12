@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsIzvjestaji" targetNamespace="http://tempuri.org/dsIzvjestaji.xsd" xmlns:mstns="http://tempuri.org/dsIzvjestaji.xsd" xmlns="http://tempuri.org/dsIzvjestaji.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsIzvjestaji" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsIzvjestaji" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsIzvjestaji">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblPodaci" msprop:Generator_RowEvHandlerName="tblPodaciRowChangeEventHandler" msprop:Generator_RowDeletedName="tblPodaciRowDeleted" msprop:Generator_RowDeletingName="tblPodaciRowDeleting" msprop:Generator_RowEvArgName="tblPodaciRowChangeEvent" msprop:Generator_TablePropName="tblPodaci" msprop:Generator_RowChangedName="tblPodaciRowChanged" msprop:Generator_RowChangingName="tblPodaciRowChanging" msprop:Generator_TableClassName="tblPodaciDataTable" msprop:Generator_RowClassName="tblPodaciRow" msprop:Generator_TableVarName="tabletblPodaci" msprop:Generator_UserTableName="tblPodaci">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Rb" msprop:Generator_ColumnPropNameInRow="Rb" msprop:Generator_ColumnPropNameInTable="RbColumn" msprop:Generator_ColumnVarNameInTable="columnRb" msprop:Generator_UserColumnName="Rb" type="xs:string" minOccurs="0" />
+              <xs:element name="NazivKnjige" msprop:Generator_ColumnPropNameInRow="NazivKnjige" msprop:Generator_ColumnPropNameInTable="NazivKnjigeColumn" msprop:Generator_ColumnVarNameInTable="columnNazivKnjige" msprop:Generator_UserColumnName="NazivKnjige" type="xs:string" minOccurs="0" />
+              <xs:element name="KnjigaVracena" msprop:Generator_ColumnPropNameInRow="KnjigaVracena" msprop:Generator_ColumnPropNameInTable="KnjigaVracenaColumn" msprop:Generator_ColumnVarNameInTable="columnKnjigaVracena" msprop:Generator_UserColumnName="KnjigaVracena" type="xs:string" minOccurs="0" />
+              <xs:element name="BrojDana" msprop:Generator_ColumnPropNameInRow="BrojDana" msprop:Generator_ColumnPropNameInTable="BrojDanaColumn" msprop:Generator_ColumnVarNameInTable="columnBrojDana" msprop:Generator_UserColumnName="BrojDana" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
